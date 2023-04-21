@@ -1,0 +1,41 @@
+.container {
+  font-family: verderana;
+}
+
+.boton {
+  background-color: rgb(255, 114, 78);
+  border-radius: 10px;
+  padding: 9px;
+  color: black;
+  text-decoration: none;
+}
+
+.carrusel {
+  background-color: #F5C764;
+}
+
+.card-body h5 {
+  font-size: 14px;
+}
+
+.footer {
+  background-color: #F5C764;
+}
+
+.der-reser {
+  font-size: 12px;
+}
+
+.navigation {
+  background-color: rgb(250, 170, 0);
+}
+
+#nombre {
+  font-size: 20px;
+}
+
+.enlace {
+  font-size: 18px;
+}
+
+/*# sourceMappingURL=main.css.map */

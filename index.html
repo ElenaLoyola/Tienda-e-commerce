@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="Assets\CSS\main.css">
+</head>
+<body class="container">
+    <!-- BARRA DE NAVEGACIÓN -->
+    <nav class="navigation navbar navbar-expand-lg mb-3">
+        <div class="container-fluid">
+            <a id="nombre" class="navbar-brand" href="#">LaTiendita</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="enlace nav-link active" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="enlace nav-link" href="#">Ofertas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="enlace nav-link" href="#">Novedades</a>
+                    </li>
+                </ul>
+            </div>
+            <a href="#"><img src="Assets\Img\carrito.png" alt="carrito compras" width="30" title="Ver carrito de compras"></a>
+        </div>
+    </nav>
+    <!-- FIN BARRA DE NAVEGACIÓN -->
+    <!-- CARROUSEL -->
+    <section class="carrusel">
+        <div>
+            <h3 class="p-3">Novedades</h3>
+        </div>
+        <div id="carouselExample" class="carousel slide pb-5">
+            <div class="carousel-inner">
+                <div class="row carrusel carousel-item active">
+                <!-- PAGINA UNO DE CARDS -->
+                    <div class="d-flex justify-content-evenly">
+                        <div class="card text-center" style="width: 15rem;">
+                            <img src="Assets\Img\frac.webp" class="card-img-top" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title p-2">Galletas Frac</h5>
+                                <a href="#" class="boton">$1000</a>
+                            </div>
+                        </div>
+                        <div class="card text-center" style="width: 15rem;">
+                            <img src="Assets\Img\lotus.webp" class="card-img-top" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title p-2">Galletas Biscoff</h5>
+                                <a href="#" class="boton">$1000</a>
+                            </div>
+                        </div>
+                        <div class="card text-center" style="width: 15rem;">
+                            <img src="Assets\Img\mizos.webp" class="card-img-top" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title p-2">Galletas Mizos</h5>
+                                <a href="#" class="boton">$1000</a>
+                            </div>
+                        </div>
+                        <div class="card text-center" style="width: 15rem;">
+                            <img src="Assets\Img\oreo-original.webp" class="card-img-top" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title p-2">Oreo original</h5>
+                                <a href="#" class="boton">$1000</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- PAGINA DOS DE CARDS -->
+                <div class="carrusel carousel-item">
+                    <div class="d-flex justify-content-evenly">
+                        <div class="card text-center" style="width: 15rem;">
+                            <img src="Assets\Img\oreo.webp" class="card-img-top" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title p-2">Oreo Vainilla</h5>
+                                <a href="#" class="boton">$1000</a>
+                            </div>
+                        </div>
+                        <div class="card text-center" style="width: 15rem;">
+                            <img src="Assets\Img\otras.webp" class="card-img-top" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title p-2">Galletas</h5>
+                                <a href="#" class="boton">$1000</a>
+                            </div>
+                        </div>
+                        <div class="card text-center" style="width: 15rem;">
+                            <img src="Assets\Img\salmas.webp" class="card-img-top" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title p-2">Salmas</h5>
+                                <a href="#" class="boton">$1000</a>
+                            </div>
+                        </div>
+                        <div class="card text-center" style="width: 15rem;">
+                            <img src="Assets\Img\triton.webp" class="card-img-top" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title p-2">Tritón</h5>
+                                <a href="#" class="boton">$1000</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+    <!-- FIN DE CARRUSEL -->
+    <main>
+        <h3 class="p-3">Ofertas</h3>
+        <!-- FILA UNO DE OFERTAS -->
+        <div class="d-flex justify-content-evenly mb-5 row">
+            <div class="card text-center col-12 col-lg-2 mb-3" style="width: 12rem;">
+                <img src="Assets\Img\te.jpg" class="card-img-top" alt="">
+                <div class="card-body">
+                    <h5 class="card-title p-2">Té</h5>
+                    <a href="#" class="boton">$1000</a>
+                </div>
+            </div>
+            <div class="card text-center col-12 col-lg-2 mb-3" style="width: 12rem;">
+                <img src="Assets\Img\te.jpg" class="card-img-top" alt="">
+                <div class="card-body">
+                    <h5 class="card-title p-2">Té</h5>
+                    <a href="#" class="boton">$1000</a>
+                </div>
+            </div>
+            <div class="card text-center col-12 col-lg-2 mb-3" style="width: 12rem;">
+                <img src="Assets\Img\te.jpg" class="card-img-top" alt="">
+                <div class="card-body">
+                    <h5 class="card-title p-2">Té</h5>
+                    <a href="#" class="boton">$1000</a>
+                </div>
+            </div>
+            <div class="card text-center col-12 col-lg-2 mb-3" style="width: 12rem;">
+                <img src="Assets\Img\te.jpg" class="card-img-top" alt="">
+                <div class="card-body">
+                    <h5 class="card-title p-2">Té</h5>
+                    <a href="#" class="boton">$1000</a>
+                </div>
+            </div>
+            <div class="card text-center col-12 col-lg-2 mb-3" style="width: 12rem;">
+                <img src="Assets\Img\te.jpg" class="card-img-top" alt="">
+                <div class="card-body">
+                    <h5 class="card-title p-2">Té</h5>
+                    <a href="#" class="boton">$1000</a>
+                </div>
+            </div>
+        </div>
+        <!-- FILA DOS DE OFERTAS -->
+        <div class="d-flex justify-content-evenly row">
+            <div class="card text-center col-12 col-lg-2 mb-3" style="width: 12rem;">
+                <img src="Assets\Img\te.jpg" class="card-img-top" alt="">
+                <div class="card-body">
+                    <h5 class="card-title p-2">Té</h5>
+                    <a href="#" class="boton">$1000</a>
+                </div>
+            </div>
+            <div class="card text-center col-12 col-lg-2 mb-3" style="width: 12rem;">
+                <img src="Assets\Img\te.jpg" class="card-img-top" alt="">
+                <div class="card-body">
+                    <h5 class="card-title p-2">Té</h5>
+                    <a href="#" class="boton">$1000</a>
+                </div>
+            </div>
+            <div class="card text-center col-12 col-lg-2 mb-3" style="width: 12rem;">
+                <img src="Assets\Img\te.jpg" class="card-img-top" alt="">
+                <div class="card-body">
+                    <h5 class="card-title p-2">Té</h5>
+                    <a href="#" class="boton">$1000</a>
+                </div>
+            </div>
+            <div class="card text-center col-12 col-lg-2 mb-3" style="width: 12rem;">
+                <img src="Assets\Img\te.jpg" class="card-img-top" alt="">
+                <div class="card-body">
+                    <h5 class="card-title p-2">Té</h5>
+                    <a href="#" class="boton">$1000</a>
+                </div>
+            </div>
+            <div class="card text-center col-12 col-lg-2 mb-3" style="width: 12rem;">
+                <img src="Assets\Img\te.jpg" class="card-img-top" alt="">
+                <div class="card-body">
+                    <h5 class="card-title p-2">Té</h5>
+                    <a href="#" class="boton">$1000</a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- FOOTER -->
+    <footer class="footer d-flex justify-content-between mt-5">
+        <div>
+            <p class="der-reser m-3">Todos los derechos reservados.</p>
+        </div>
+        <div class="m-3">
+            <a href=""><img src="Assets\Img\facebook.png" alt="fb" width="25"></a>
+            <a href=""><img src="Assets\Img\ig.png" alt="ig" width="20"></a>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</body>
+</html>
